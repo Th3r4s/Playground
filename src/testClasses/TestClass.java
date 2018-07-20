@@ -20,6 +20,6 @@ public class TestClass {
         double weight = at.getWeight();
         BMICalculator bc = new BMICalculator();
         double athleteBmi = bc.calcBmi(weight,height);
-        System.out.println("Athlete BMI: "+athleteBmi);
+        System.out.println("Athlete BMI: "+athleteBmi+", means: "+bc.categorizeBMI(athleteBmi));
     }
 }
