@@ -13,7 +13,7 @@ public class BMICalculator {
 
     public double calcBmi(double kg, double height){
 
-        double bmi = kg/(height*height);
+        double bmi = kg/(height*height)*10000;
         LOGGER.info("kg: "+kg+" height: "+height+" bmi: "+bmi);
         return bmi;
     }
